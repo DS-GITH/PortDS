@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: sans-serif, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: #121017;
 }
 
@@ -38,13 +38,19 @@ header .logo {
 }
 
 header .logo .Ds {
+  color: #E5E5E5;
+  font-size: 30px;
+  letter-spacing: 0.27;
+}
+
+header .logo .Ds {
   color: white;
   font-size: 30px;
   letter-spacing: 0.27;
 }
 
 header .logo .Port {
-  color: #311385;
+  color: rgb(255, 3, 3);
   letter-spacing: 0.27;
 }
 
@@ -67,7 +73,6 @@ header nav ul li a {
   letter-spacing: 0.27;
   margin-right: 3px;
   text-decoration: none;
-  border: 1px solid white;
   padding: 5px 10px;
 }
 
@@ -80,6 +85,46 @@ header nav ul li a:hover {
 
 header nav ul li:last-of-type a {
   margin: 0;
+}
+
+main {
+  margin-top: 80px;
+  color: white;
+}
+
+.photobox {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  width: 50%;
+  height: auto;
+  border-radius: 100%;
+  margin-top: 20px;
+  box-shadow: 1px 10px 21px -3px rgb(255, 3, 3);
+}
+
+main h2 {
+  margin: 0;
+}
+main h3 {
+  color: rgb(255, 3, 3);
+  margin: 0;
+}
+main .description {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+main .download {
+  background-color: rgb(255, 3, 3);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 18px;
+  border: 0;
+  box-shadow: 1px 10px 21px -3px rgb(110, 4, 4);
 }
 
 /*# sourceMappingURL=style.css.map */

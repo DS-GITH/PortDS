@@ -1,4 +1,4 @@
-$cor-primaria : #311385;
+$cor-primaria : rgba(255,3,3,1);
 $cor-secundaria : #2D1E6E;
 $cor-terciaria : #312B4A;
 $cor-quaternaria : #252532;
@@ -6,7 +6,7 @@ $cor-quintaria : #121017;
 
 body {
     margin: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: $cor-quintaria;
 }
 
@@ -80,7 +80,6 @@ header nav ul li a{
     letter-spacing: 0.27;
     margin-right: 3px;
     text-decoration: none;
-    border: 1px solid white;
     padding: 5px 10px;
 }
 
@@ -94,3 +93,55 @@ header nav ul li a:hover{
 header nav ul li:last-of-type a{
     margin: 0;
 }
+
+// MAIN CONTENT
+
+main{
+    margin-top: 80px;
+    color: white;    
+}
+
+.photobox{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.profile-img{
+    width: 50%;
+    height: auto;
+    border-radius: 100%;
+    margin-top: 20px;
+    box-shadow: 1px 10px 21px -3px rgba(255,3,3,1);
+}
+
+main {
+
+    h2{
+        margin: 0;
+    }
+
+    h3{
+        color: $cor-primaria;
+        margin: 0;
+    }
+
+    .description{
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.5;
+        color: white;
+    }
+
+    .download{
+        background-color: $cor-primaria;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 18px;
+        border: 0;
+        box-shadow: 1px 10px 21px -3px rgb(110, 4, 4);
+
+
+    }
+}
+
