@@ -1,12 +1,13 @@
 $cor-primaria : rgba(255,3,3,1);
-$cor-secundaria : #2D1E6E;
+$cor-secundaria : #3A3A3A;
 $cor-terciaria : #312B4A;
 $cor-quaternaria : #252532;
-$cor-quintaria : #121017;
+$cor-quintaria : #2B2B2B;
+$branco: #FFFFFF;
 
 body {
     margin: 0;
-    font-family: sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Heebo", sans-serif;
     background-color: $cor-quintaria;
 }
 
@@ -19,7 +20,7 @@ ul {
     max-width: 360;
     margin: auto;
     padding: 0 20px;
-    background-color: $cor-terciaria;
+    background-color: $cor-secundaria;
 }
 
 header {
@@ -46,19 +47,15 @@ header .logo{
   
   header .logo .Ds{
     color: #E5E5E5;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 0.27;
+    font-weight: 700;
   }
   
-  header .logo .Ds{
-    color: white;
-    font-size: 30px;
-    letter-spacing: 0.27;
-  }
-
   header .logo .Port{
     color: $cor-primaria;
     letter-spacing: 0.27;
+    font-size: 20px;
   }
 
 header nav{
@@ -111,7 +108,7 @@ main{
     width: 50%;
     height: auto;
     border-radius: 100%;
-    margin-top: 20px;
+    margin-top: 30%;
     box-shadow: 1px 10px 21px -3px rgba(255,3,3,1);
 }
 
@@ -119,23 +116,19 @@ main {
 
     .infobox{
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
         margin-top: 20px;
         padding: 20px;
-        background-color: $cor-quaternaria;
-        border-radius: 10px;
-        box-shadow: 1px 10px 21px -3px rgba(255,3,3,1);
+
     }
 
     h2{
-        margin: 0;
+        margin: 10px 0px;
     }
 
     h3{
         color: $cor-primaria;
-        margin: 0;
+        margin: 0px 0px 10px 0px;
     }
 
     .description{
@@ -148,13 +141,17 @@ main {
     .download{
         background-color: $cor-primaria;
         color: white;
+        width: 50%;
         padding: 10px 20px;
+        margin: auto;
+        margin-top: 30px;
         border-radius: 18px;
         border: 0;
+        
         box-shadow: 1px 10px 21px -3px rgb(110, 4, 4);
 
 
     }
 }
-}
+
 
